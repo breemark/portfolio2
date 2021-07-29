@@ -8,14 +8,72 @@
     <div class="intro" style="height: 100vh;">
         <div id="introUpperSpace"></div>
         <div class=" row justify-content-center">
-            <h1 id="myName" class="display-1">Maximiliano Torres</h1>
+            <h1 id="myName" class="display-1">{% trans "Maximiliano Torres" %}</h1>
         </div>
         <div class="row justify-content-center">
-            <h2 id="myDesc">Software Developer</h2>
+            <h2 id="myDesc">{% trans "Software Developer" %}</h2>
         </div>
     </div>
 
-<h1>Hola</h1>
+    <!--Bio-->
+    <div id="bio" class="p-5">
+        <div class="row justify-content-center">
+            <a name="about">
+                <h1 class="display-3 ">{% trans "About me" %}</h1>
+            </a>
+        </div>
+        <div class="row mb-5">
+                <!-- Picture -->
+            {% if frontpage.picture %}
+                <div class="col-sm">
+                    <img src="{{frontpage.picture}}" style="max-width: 100%;"
+                        class="rounded img-thumbnail float-right">
+                </div>
+            {% endif %}
 
+                <div class="col-md">
+                    <p class="lead" style="text-align: justify; text-justify: inter-word;">
+                        {{ frontpage.bio }}
+                    </p>
+                    <a class="btn btn-outline-primary" target="blank" href="https://breemark.github.io./"
+                        role="button">{% trans "My Resume" %}</a>
+                </div>
+            
+        </div>
+
+        {% if frontpage.email %}
+        
+            <div class="row justify-content-center">
+                <a name="contact">
+                    <h1 class="display-3 ">{% trans "Contact me" %}</h1>
+                </a>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <p class="lead text-center">
+                        {% trans "For projects and contracts reach me at my email:" %}
+                    </p>
+                    <p class="lead text-center">
+                        <a href="mailto:{{ frontpage.email }}" target="_blank">{{frontpage.email}}</a>
+                    </p>
+                </div>
+            </div>
+
+        {% endif %}
+
+        <div class="row justify-content-center">
+            {% if frontpage.facebook %}
+                <a href="{{ frontpage.facebook }}" target="blank" class="fa fa-facebook"></a>
+            {% endif %}
+            {% if frontpage.linkedin %}
+                <a href="{{ frontpage.linkedin }}" target="blank" class="fa fa-linkedin"></a>
+            {% endif %}
+            {% if frontpage.skype %}
+                <a href="{{ frontpage.skype }}" class="fa fa-skype"></a>
+            {% endif %}
+        </div>
+
+
+    </div>
 
 {% endblock %}

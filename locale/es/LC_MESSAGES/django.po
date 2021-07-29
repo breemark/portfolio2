@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-29 11:36+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: frontpage/templates/frontpage/base.html:8
+msgid "Maximiliano Torres Developer"
+msgstr "Maximiliano Torres Desarrollador"
+
+#: frontpage/templates/frontpage/base.html:33
+msgid "Torres"
+msgstr "Torres"
+
+#: frontpage/templates/frontpage/base.html:42
+msgid "Projects"
+msgstr "Proyectos"
+
+#: frontpage/templates/frontpage/base.html:45
+msgid "Posts"
+msgstr "Artículos"
+
+#: frontpage/templates/frontpage/base.html:50
+msgid "Language"
+msgstr "Idioma"
+
+#: frontpage/templates/frontpage/home.html:11
+msgid "Maximiliano Torres"
+msgstr "Maximiliano Torres"
+
+#: frontpage/templates/frontpage/home.html:14
+msgid "Software Developer"
+msgstr "Desarrollador de Software"
+
+#: frontpage/templates/frontpage/home.html:22
+msgid "About me"
+msgstr "Sobre mí"
+
+#: frontpage/templates/frontpage/home.html:39
+msgid "My Resume"
+msgstr "Mi CV"
+
+#: frontpage/templates/frontpage/home.html:48
+msgid "Contact me"
+msgstr "Contáctame"
+
+#: frontpage/templates/frontpage/home.html:54
+msgid "For projects and contracts reach me at my email:"
+msgstr "Para proyectos y contratos, comuníquese conmigo a mi correo electrónico:"
