@@ -39,10 +39,10 @@
         <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#about">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact">Posts</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -57,17 +57,6 @@
 
     <div class="container ">
 
-
-        <div class="intro" style="height: 100vh;">
-            <div id="introUpperSpace"></div>
-            <div class=" row justify-content-center">
-                <h1 id="myName" class="display-1">Maximiliano Torres</h1>
-            </div>
-            <div class="row justify-content-center">
-                <h2 id="myDesc">Software Developer</h2>
-            </div>
-        </div>
-
         {% block content %}
 
         {% endblock  %}  
@@ -78,7 +67,6 @@
     <script src="{% static 'particles/particles.min.js' %}"></script>
     
     <script>
-        
         const particles = "{% static '/particles/particles.json' %}"
 
         particlesJS.load('particles-js', particles, function () {
