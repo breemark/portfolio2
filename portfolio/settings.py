@@ -105,6 +105,12 @@ LANGUAGES = (
     ('zh-hans', 'Chinese'),
     ('es', 'Español'),
     ('th', 'ไทย'),
+    ('ja', 'Japanese'),
+    ('ko', 'Korean'),
+    ('my', 'Burmese'),
+    ('lo', 'Lao'),
+    ('vi', 'Viet'),
+    ('ru', 'Russia'),
 )
 
 TIME_ZONE = 'Asia/Shanghai'
@@ -128,3 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
+
+# Media vars. Both are needed!
+MEDIA_ROOT= BASE_DIR / "media"
+MEDIA_URL ='/media/'

@@ -2,6 +2,8 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.i18n import i18n_patterns 
 from frontpage.views import change_language
+from django.conf import settings
+from django.conf.urls.static import static
 
 
 urlpatterns = [
@@ -16,6 +18,7 @@ urlpatterns += i18n_patterns(
     # path('projects/', include('projects.urls')),
 )
 
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 admin.site.site_header = "BREEMARK"
 admin.site.site_title = "Breemark"
