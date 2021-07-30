@@ -1,0 +1,16 @@
+{% extends 'frontpage/base.html' %}
+{% load i18n %}
+{% load static %}
+
+
+{% block content%}
+
+<div class="p-5"></div>
+
+<div class="bio p-5">
+    <h1 class="text-center"> {{article.title}} </h1>
+    <hr>
+    {{ article.content|safe }}
+</div>
+
+{% endblock %}

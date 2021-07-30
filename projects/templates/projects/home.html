@@ -1,0 +1,34 @@
+{% extends 'frontpage/base.html' %}
+{% load i18n %}
+{% load static %}
+
+
+{% block content%}
+
+<div class="p-5"></div>
+<div class="bio pt-3 row row-cols-sm-4">
+    {% for project in projects %}
+    
+    <div class="col-sm-4">
+        <div class="card mb-4">
+            <div class="card-body">
+            <h4 class="card-title">{{ project.title }}</h4>
+            <h6 class="card-subtitle mb-2 text-muted">{{ project.subtitle }}</h6>
+            <p class="card-text">{{ project.description }}</p>
+            <img style="width: 100%;" src="/media/{{ project.picture }}">
+            <hr>
+            {% if project.link %}
+                <a href="{{ project.link }}" class="card-link">App</a>
+            {% endif %}
+            {% if project.code %}
+                <a href="{{ project.code }}" class="card-link">Code</a>
+            {% endif %}
+            </div>
+          </div>
+    </div>
+
+    {% endfor %}
+    
+  </div>
+
+{% endblock %}

@@ -15,7 +15,10 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     path('admin/', admin.site.urls),
     path('', include('frontpage.urls')),
-    # path('projects/', include('projects.urls')),
+    path('projects/', include('projects.urls')),
+    path('articles/', include('articles.urls')),
+    path('ckeditor', include('ckeditor_uploader.urls')),
+    prefix_default_language=True
 )
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

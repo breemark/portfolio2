@@ -25,7 +25,7 @@
     height: 41vh;
   }
   
-  #bio {
+  .bio {
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.7);
   }

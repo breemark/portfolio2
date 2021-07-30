@@ -30,6 +30,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'frontpage',
     'projects',
+    'articles',
+    'ckeditor',
+    'ckeditor_uploader',
 ]
 
 MIDDLEWARE = [
@@ -140,3 +143,6 @@ LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
 # Media vars. Both are needed!
 MEDIA_ROOT= BASE_DIR / "media"
 MEDIA_URL ='/media/'
+
+# CKEditor Pictures
+CKEDITOR_UPLOAD_PATH = 'ckeditor/'

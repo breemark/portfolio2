@@ -1,0 +1,30 @@
+{% extends 'frontpage/base.html' %}
+{% load i18n %}
+{% load static %}
+
+
+{% block content%}
+
+<div class="p-5"></div>
+<div class="bio pt-3 row row-cols-sm-4">
+    {% for article in articles %}
+    
+    <div class="col-sm-4">
+        <div class="card border-primary mb-4">
+            <div class="card-body">
+            <h4 class="card-title">{{ article.title }}</h4>
+            <p class="card-text">{{ article.subtitle }}</p>
+            <img style="width: 100%;" src="/media/{{ article.picture }}">
+            <hr>
+            <div class="float-right">
+                <a href="{{ article.slug }}" class="card-link">{% trans " Read more..." %}</a>
+            </div>
+            </div>
+          </div>
+    </div>
+
+    {% endfor %}
+    
+  </div>
+
+{% endblock %}

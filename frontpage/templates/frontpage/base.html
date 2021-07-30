@@ -30,7 +30,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">{% trans "Torres" %}</a>
+        <a class="navbar-brand" href="/{{current_language}}/">{% trans "Torres" %}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
             aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,10 +39,10 @@
         <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">{% trans "Projects" %}</a>
+                    <a class="nav-link" href="/{{current_language}}/projects/">{% trans "Projects" %}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">{% trans "Posts" %}</a>
+                    <a class="nav-link" href="/{{current_language}}/articles/">{% trans "Posts" %}</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">

@@ -52,11 +52,11 @@ msgstr "ကိုယ့်အကြောင်း"
 
 #: frontpage/templates/frontpage/home.html:39
 msgid "My Resume"
-msgstr "ငါ့ကိုယ်ရေးရာဇဝင်"
+msgstr "ကျွန်တော်​၏ကိုယ်ရေးရာဇဝင်"
 
 #: frontpage/templates/frontpage/home.html:48
 msgid "Contact me"
-msgstr "ငါ့ကိုဆက်သွယ်ပါ"
+msgstr "ကျွန်တော့ကိုဆက်သွယ်ရန်"
 
 #: frontpage/templates/frontpage/home.html:54
 msgid "For projects and contracts reach me at my email:"
