@@ -35,8 +35,10 @@
                     <p class="lead" style="text-align: justify; text-justify: inter-word;">
                         {{ frontpage.bio }}
                     </p>
-                    <a class="btn btn-outline-primary" target="blank" href="https://breemark.github.io./"
+                    {% if frontpage.cv_resume %}
+                    <a class="btn btn-outline-primary" target="blank" href="/media/{{ frontpage.cv_resume }}"
                         role="button">{% trans "My Resume" %}</a>
+                    {% endif %}
                 </div>
             
         </div>
