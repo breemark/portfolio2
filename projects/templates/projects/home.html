@@ -15,7 +15,9 @@
             <h4 class="card-title">{{ project.title }}</h4>
             <h6 class="card-subtitle mb-2 text-muted">{{ project.subtitle }}</h6>
             <p class="card-text">{{ project.description }}</p>
-            <img style="width: 100%;" src="/media/{{ project.picture }}">
+            {% if project.picture %}
+                <img style="width: 100%;" src="/media/{{ project.picture }}">
+            {% endif %}
             <hr>
             {% if project.link %}
                 <a href="{{ project.link }}" class="card-link">App</a>
