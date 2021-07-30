@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-29 11:51+0700\n"
+"POT-Creation-Date: 2021-07-30 05:32+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,48 +16,47 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: frontpage/templates/frontpage/base.html:8
 msgid "Maximiliano Torres Developer"
-msgstr "托雷斯 - 软件开发人员"
+msgstr ""
 
 #: frontpage/templates/frontpage/base.html:33
 msgid "Torres"
-msgstr "托雷斯"
+msgstr ""
 
 #: frontpage/templates/frontpage/base.html:42
 msgid "Projects"
-msgstr "我的项目"
+msgstr ""
 
 #: frontpage/templates/frontpage/base.html:45
 msgid "Posts"
-msgstr "我的博客文章"
+msgstr ""
 
-#: frontpage/templates/frontpage/base.html:50
+#: frontpage/templates/frontpage/base.html:51
 msgid "Language"
-msgstr "改变语言"
+msgstr ""
 
 #: frontpage/templates/frontpage/home.html:11
 msgid "Maximiliano Torres"
-msgstr "托雷斯"
+msgstr ""
 
 #: frontpage/templates/frontpage/home.html:14
 msgid "Software Developer"
-msgstr "软件开发人员"
+msgstr ""
 
 #: frontpage/templates/frontpage/home.html:22
 msgid "About me"
-msgstr "关于我"
+msgstr ""
 
 #: frontpage/templates/frontpage/home.html:39
 msgid "My Resume"
-msgstr "我的职业履历"
+msgstr ""
 
 #: frontpage/templates/frontpage/home.html:48
 msgid "Contact me"
-msgstr "联络我"
+msgstr ""
 
 #: frontpage/templates/frontpage/home.html:54
 msgid "For projects and contracts reach me at my email:"
-msgstr "对于项目和合同，请通过我的电子邮件联系我："
+msgstr ""

@@ -3,7 +3,8 @@ from .models import FrontPage, Language
 
 # Register your models here.
 class FrontPageAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('language', 'id',)
+
 
 class LanguageAdmin(admin.ModelAdmin):
     list_display = ('name', )

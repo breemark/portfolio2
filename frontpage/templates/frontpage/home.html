@@ -71,9 +71,15 @@
             {% if frontpage.skype %}
                 <a href="{{ frontpage.skype }}" class="fa fa-skype"></a>
             {% endif %}
+            {% if frontpage.instagram %}
+                <a href="{{ frontpage.instagram }}" class="fa fa-instagram"></a>
+            {% endif %}
+            {% if frontpage.wechat %}
+                <a href="{{ frontpage.wechat }}" class="fa fa-weixin"></a>
+            {% endif %}
         </div>
 
-
     </div>
+    <div class="p-2"></div>
 
 {% endblock %}

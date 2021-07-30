@@ -111,6 +111,8 @@ LANGUAGES = (
     ('lo', 'Lao'),
     ('vi', 'Viet'),
     ('ru', 'Russia'),
+    ('dz', 'Dzongkha'),
+
 )
 
 TIME_ZONE = 'Asia/Shanghai'

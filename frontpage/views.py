@@ -6,7 +6,10 @@ from .models import FrontPage
 
 # Create your views here.
 def home(request):
-    frontpage = FrontPage.objects.all().last()
+    frontpage = FrontPage.objects.all().filter(language__code=request.LANGUAGE_CODE).last()
+    
+    if frontpage is None:
+        frontpage = FrontPage.objects.all().filter(language__code='en-us').last()
 
     return render(request, 'frontpage/home.html', {'frontpage': frontpage})
 
