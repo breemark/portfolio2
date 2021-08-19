@@ -76,6 +76,10 @@
   .fa-skype {
     color: white;
   }
+
+  .fa-weixin {
+    color: white;
+  }
   
   @media (max-width: 991px) {
     .navbar {
@@ -89,5 +93,8 @@
     }
     #myDesc {
       font-size: 25px;
+    }
+    .display-3 {
+      font-size: 30px !important;
     }
   }
